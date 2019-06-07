@@ -11,3 +11,7 @@ Mario Juez-Gil <sup>a</sup>, Juan José Saucedo-Dorantes <sup>b</sup>, Álvar Ar
 ## Experiments
 
 The experiments are available in [this notebook](experiments.ipynb).
+
+## Citation policy
+
+Currently, this paper is under review process.
