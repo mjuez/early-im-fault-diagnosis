@@ -26,6 +26,11 @@ FAILURES = {
     (1, 0, 1): "UNB & BRB"          # unbalance and broken bar
 }
 
+BIN_FAILURES = {
+    (0, 0): "HLT",                 # healthy
+    (0, 1): "BD"                   # bearing defect
+}
+
 ROOT_PATH = "/home/mariojg/research/datasets/motor_faults"
 
 def connect_bbox(bbox1, bbox2,
@@ -307,8 +312,8 @@ def predictions_confusion_matrices(X, Y, classifier, n_kfolds, random_state=1):
         cm = np.add(cm, fold_cnf_matrix)
     return np.round(cm).astype('int')
 
-def plot_confusion_matrix(cm, fname):
-    classes=[FAILURES[k] for k in FAILURES]
+def plot_confusion_matrix(cm, failures, fname):
+    classes=[failures[k] for k in failures]
 
     fig, ax = plt.subplots(1, 1, figsize=(4, 3), dpi=300)
     im = ax.imshow(cm, interpolation='nearest', cmap=plt.cm.Greys)
@@ -317,6 +322,8 @@ def plot_confusion_matrix(cm, fname):
     ax.set_xticklabels(classes, rotation=90)
     ax.set_yticks(tick_marks)
     ax.set_yticklabels(classes)
+    bottom, top = ax.get_ylim()
+    ax.set_ylim(bottom + 0.5, top - 0.5)
 
     thresh = cm.max() / 2.
     for j, k in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
