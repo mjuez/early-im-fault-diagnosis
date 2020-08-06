@@ -1,5 +1,7 @@
 # Early and extremely early multi-label fault diagnosis in induction motors
 
+https://doi.org/10.1016/j.isatra.2020.07.002
+
 Mario Juez-Gil <sup>a</sup>, Juan José Saucedo-Dorantes <sup>b</sup>, Álvar Arnaiz-González <sup>a</sup>, César Ignacio García-Osorio <sup>a</sup>, Carlos López-Nozal <sup>a</sup>, David Lowe <sup>c</sup>.
 
 <sup>a</sup> Universidad de Burgos, Burgos, Spain
