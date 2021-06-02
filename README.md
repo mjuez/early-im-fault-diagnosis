@@ -31,7 +31,7 @@ Please cite this research as:
 ```
 @ARTICLE{juezgil2020earlyimfaults,
 title = {Early and extremely early multi-label fault diagnosis in induction motors},
-author = {Juez-Gil, Mario and Saucedo-Dorantes, Juan Jos{\'e} and Arnaiz-Gonz{\'a}lez, {\'A}lvar and L{\'o}pez-Nozal, Carlos and Garc{\'\i}a-Osorio, C{\'e}sar and David Lowe},
+author = {Juez-Gil, Mario and Saucedo-Dorantes, Juan Jos{\'e} and Arnaiz-Gonz{\'a}lez, {\'A}lvar and L{\'o}pez-Nozal, Carlos and Garc{\'\i}a-Osorio, C{\'e}sar and Lowe, David},
 journal = {ISA Transactions},
 year = {2020},
 month = {nov},
