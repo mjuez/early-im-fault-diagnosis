@@ -29,17 +29,18 @@ This work was supported through project TIN2015-67534-P (MINECO, Spain/FEDER, UE
 Please cite this research as:
 
 ```
-@ARTICLE{JUEZGIL2020,
-title = "Early and extremely early multi-label fault diagnosis in induction motors",
-author = "Mario Juez-Gil and Juan José Saucedo-Dorantes and Álvar Arnaiz-González and Carlos López-Nozal and César García-Osorio and David Lowe",
-journal = "ISA Transactions",
-year = "2020",
-month = "nov",
-volume = "106",
-pages = "367-381",
-issn = "0019-0578",
-doi = "https://doi.org/10.1016/j.isatra.2020.07.002",
-url = "http://www.sciencedirect.com/science/article/pii/S0019057820302755",
-keywords = "Multi-fault detection, Early detection, Multi-label classification, Principal component analysis, Load insensitive model, Prediction at low operating frequencies",
+@ARTICLE{juezgil2020earlyimfaults,
+title = {Early and extremely early multi-label fault diagnosis in induction motors},
+author = {Juez-Gil, Mario and Saucedo-Dorantes, Juan Jos{\'e} and Arnaiz-Gonz{\'a}lez, {\'A}lvar and L{\'o}pez-Nozal, Carlos and Garc{\'\i}a-Osorio, C{\'e}sar and David Lowe},
+journal = {ISA Transactions},
+year = {2020},
+month = {nov},
+volume = {106},
+pages = {367-381},
+issn = {0019-0578},
+doi = {https://doi.org/10.1016/j.isatra.2020.07.002},
+url = {http://www.sciencedirect.com/science/article/pii/S0019057820302755},
+keywords = {Multi-fault detection, Early detection, Multi-label classification, Principal component analysis, Load insensitive model, Prediction at low operating frequencies},
+publisher = {Elsevier}
 }
 ```
